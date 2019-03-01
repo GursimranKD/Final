@@ -1,0 +1,29 @@
+
+
+
+insert into product(product_id, seller_id, category, delivery_charge, desc, discount, display_name, offer_price, price, quantity, short_desc)
+values(1,100, 'mobile', 0,'Best Phone in the market', 0, 'Realme 2', 0, 14000, 20, 'Smart Phone');
+
+insert into product(product_id, seller_id, category, delivery_charge, desc, discount, display_name, offer_price, price, quantity, short_desc)
+values(2,100, 'camera', 0,'Best camera in the market', 100, 'Sony Experia 2', 10, 18000, 20, 'Smart camera');
+
+
+insert into product(product_id, seller_id, category, delivery_charge, desc, discount, display_name, offer_price, price, quantity, short_desc)
+values(3,100, 'sound', 0,'very good sound', 0, 'jbl', 0, 14000, 20, 'Ear phone');
+
+insert into product(product_id, seller_id, category, delivery_charge, desc, discount, display_name, offer_price, price, quantity, short_desc)
+values(4,200, 'mobile', 0,'I love this phone', 200, 'Honor 7x', 0, 10000, 20, 'Smart Phone');
+
+insert into product(product_id, seller_id, category, delivery_charge, desc, discount, display_name, offer_price, price, quantity, short_desc)
+values(5,200, 'laptop', 100,'Best laptop ever', 0, 'Dell', 0, 40000, 20, 'Dell Inspiron');
+
+
+insert into review(review_id, product_id, rating, review_comment, user_id) 
+values(1, 2, 3.7, 'not bad', 1000);
+insert into review(review_id, product_id, rating, review_comment, user_id) 
+values(2, 2, 4.7, 'superb', 2000);
+insert into review(review_id, product_id, rating, review_comment, user_id) 
+values(3, 5, 3, 'poor', 2000);
+
+insert into review(product_id, rating, review_comment, user_id) 
+values( 5, 3, 'poor and useless', 5000);
