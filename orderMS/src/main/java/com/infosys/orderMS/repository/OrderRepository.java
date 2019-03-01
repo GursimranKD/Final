@@ -11,7 +11,8 @@ import com.infosys.orderMS.domain.Order;
 
 @Repository
 public interface OrderRepository extends JpaRepository<Order,Integer> {
-	public List<Order> findBySellerId(Integer sellerId);
 	public List<Order> findByUserId(Integer userId);
 	public Order findByOrderId(Integer orderId);
+
+	public List<Order> findBySellerId(Integer sellerId);
 }
